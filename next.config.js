@@ -2,5 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
 }
-
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['www.rajasthantourplanner.com','www.cbazaar.com','kshatriyaschool.com','wedleaf.com','kirtislifestyle.com'],
+  },
+}

@@ -13,7 +13,7 @@ export default function News({ posts })
 				{posts.map((post)=>
 					{
 						return (
-							<div className="col s12 m3 center-align blog_posts">
+							<div className="col s12 m3 center-align blog_posts" key={post.id}>
 							<Link key={post.id} href="/news/[id]" as={"/news/" + post.slug}>
 								<img src={post['_embedded']['wp:featuredmedia'][0]['source_url']}/>
 							</Link>

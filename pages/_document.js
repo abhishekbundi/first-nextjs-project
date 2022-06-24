@@ -9,7 +9,7 @@ class MyDocument extends Document {
 			<Html>
 			<Head>
 			<link rel = "stylesheet"  
-			href = "https://fonts.googleapis.com/icon?family=Material+Icons"/>  
+			href = "https://fonts.googleapis.com/icon?family=Material+Icons&display=optional"/>  
 			<link rel = "stylesheet"  
 			href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css"/>  
 			<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'/>
@@ -17,9 +17,9 @@ class MyDocument extends Document {
 			<body>
 			<Main />
 			<NextScript />
-			<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js">  
+			<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js" async>  
 			</script>             
-			<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">  
+			<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js" async>  
 			</script>               
 			</body>
 			</Html>

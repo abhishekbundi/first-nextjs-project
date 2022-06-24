@@ -9,7 +9,7 @@ export default function contact()
 			</div>
 			<div className="row">
 				<div className="col s12 m6">
-				<img src="https://kirtislifestyle.com/wp-content/uploads/2021/01/fx-marblog-jaipur-routes-banner.jpg"/>
+				<img src="https://kirtislifestyle.com/wp-content/uploads/2021/01/fx-marblog-jaipur-routes-banner.jpg" alt="about page"/>
 				</div>
 				<div className="col s12 m6">
 				<p>The traditional attires include khol, Pachewera, 

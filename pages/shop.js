@@ -1,7 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-
-
 export default function shop({ posts })
 {
 	return (
@@ -13,7 +11,7 @@ export default function shop({ posts })
 				{posts.map((post)=>
 					{
 						return (
-							<div className="col s12 m3 center-align blog_posts">
+							<div className="col s12 m3 center-align blog_posts" key={post.id}>
 							<Link key={post.id} href="/product/[id]" as={"/product/" + post.slug}>
 								<img src={post['_embedded']['wp:featuredmedia'][0]['source_url']}/>
 							</Link>
