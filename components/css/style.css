@@ -1,0 +1,16 @@
+nav .brand-logo {color: #000;padding-left: 20px;font-family: 'Cinzel Decorative';}
+nav ul a {color: #000;font-size: 17px;}
+nav ul li:hover, nav ul li.active {background-color: transparent;}
+li.active a {color: #7e7979;}
+li a:hover{color: #7e7979;}
+#copyright a{color: #807b7b;}
+.page {padding-left: 5px;padding-right: 5px;}
+img{width:100%;cursor: pointer;}
+.page_header h1 {font-size: 30px;font-family: 'Cinzel Decorative';font-weight: 400;border-bottom: 2px solid #7e7979;display: inline-block;padding-bottom: 5px;}
+a.waves-effect.waves-light.btn.send_btn {background: #7f7a7a;font-size: 18px;}
+.sidenav-trigger i.material-icons {color: #151515;font-size: 30px;padding: 9px;display:none;}
+.blog_posts h3 {font-size: 20px;text-align: left;height: 55px;cursor:pointer;}
+.blog_posts img{height: 300px;}
+.blog_posts a {color: black;font-size:18px;}
+.post_content p{text-align: justify;color: #666666;}
+.blog_posts img {border: 1px solid #cdcaca;padding: 5px;border-radius: 5px;}
